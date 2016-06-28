@@ -17,7 +17,7 @@
 
 ## Outline / Notes
 
-*  stuff
+*  Begin with simple problem they are solving by using Protocols. 
 
 
 
