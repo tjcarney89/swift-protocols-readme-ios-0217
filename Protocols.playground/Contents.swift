@@ -2,63 +2,63 @@
 
 import UIKit
 
-var str = "Hello, playground"
 
 
-
-
-
-
-let name = "JIM IS OK"
-
-print(name.utf16)
-
-let jim = String(name.characters.dropFirst(3))
-
-//name.characters.index(name.st, offsetBy: Int)
-
-
-let thirdLetterIndex = name.index(name.startIndex, offsetBy: 2)
-let blah = name.characters[thirdLetterIndex]
-
-let mister = name.substring(to: thirdLetterIndex)
-
-
-//let index = name.index(name.startIndex, offsetBy: )
-
-
-
-extension String {
+class Person {
     
-    func truncate(from initialSpot: Int, withLengthOf endSpot: Int) -> String? {
+    var name: String
+    var height: Double
+    var favoriteFood: String
     
-        guard endSpot > initialSpot else { return nil }
-        guard endSpot + initialSpot <= self.characters.count else { return nil }
-        
-        
-        let truncated = String(self.characters.dropFirst(initialSpot))
-        let lastIndex = truncated.index(truncated.startIndex, offsetBy: endSpot)
-        
-        return truncated.substring(to: lastIndex)
+    var description: String {
+        return "Name: \(jim.name) \nHeight: \(jim.height) \nFavorite Food: \(jim.favoriteFood)"
+    }
+    
+    init(name: String, height: Double, favoriteFood: String) {
+        self.name = name
+        self.height = height
+        self.favoriteFood = favoriteFood
     }
     
 }
 
-let favGameOfThronesSong = "Light of the Seven"
+let jim = Person(name: "Jim", height: 64.0, favoriteFood: "Pasta")
 
-let word = favGameOfThronesSong.truncate(from: 1, withLengthOf: 4)
-// "ight"
+print(jim.description)
+//Name: Jim
+//Height: 64.0
+//Favorite Food: Pasta
 
 
 
-let poop = "Jim Campagno"
-poop.truncate(from: 2, withLengthOf: 11)
-
-func getRepos(withDictionary: [String: String], withCompletion: () -> ()) {
+protocol PrettyDescription {
     
+    var description: String { get }
     
 }
 
-// getReposWithCompletion(_:withCompletion:)
+
+
+class Animal {
+    
+    var name: String
+    var height: Double
+    var favoriteFood: String
+    
+    init(name: String, height: Double, favoriteFood: String) {
+        self.name = name
+        self.height = height
+        self.favoriteFood = favoriteFood
+    }
+    
+}
+
+let prettyThings: [PrettyDescription] = []
+
+for prettyThing in prettyThings {
+    
+    print(prettyThing.description)
+    
+}
 
 
