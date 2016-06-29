@@ -145,21 +145,10 @@ class Animal: PrettyDescription {
 
 ![error](http://i.imgur.com/0fsZSVb.png)
 
-* Continue on with a similar approach showing them functions in the protocol, as well as protocols being a type.
+* Continue on with a similar approach showing them functions in the protocol. A future lesson in this unit will cover protocol as types, so you don't need to do that here.
 
-```swift
-let prettyThings: [PrettyDescription] = []
-```
 
-```swift
-for prettyThing in prettyThings {
-    
-    print(prettyThing.description)
-    
-}
-```
 
-* Maybe not the best example, but you get the idea.
 
 
 
