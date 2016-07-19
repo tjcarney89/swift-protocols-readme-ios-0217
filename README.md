@@ -5,39 +5,14 @@
 > If you always put limit on everything you do, physical or anything else. It will spread into your work and into your life. There are no limits. There are only plateaus, and you must not stay there, you must go beyond them. ~[Bruce Lee](https://en.wikipedia.org/wiki/Bruce_Lee)
  
 
-## Learning Objectives - The student should be able to..
+## Learning Objectives
 
 * See detailed outline / notes
 * Create a protocol
 * Understand the problem they are solving with protocols. 
 
 
-## What the student can do at this point 
 
-* Create variables and constants
-* Is familiar with type annotations, type inference and string interpolation.
-* Can create functions with return types.
-* Is familiar with the String, Int, Double, and Bool type.
-* Can perform arithmetic operations on Int and Double.
-* Understands if and else clause statements.
-* Can create and use Arrays.
-* Can iterate over an Array using a for-in loop.
-* Can iterate over an Array calling enumerate().
-* Work with the following methods on arrays:
-	* append()
-	* insert(_:atIndex:)
-	* removeAtIndex()
-	* subscript syntax with arrays
-	* count
-	* isEmpty
-	* Optionals
-* Can work with dictionaries 
-* Can iterate over a dictionary
-* Knows about optionals (should at this point)
-* Can work with Extensions
-* Can work with making a Class and Enums
-
-## JF NEW TEXT
 Just as in any object-oriented programming language, classes in Swift encapsulate data and functionality. In practical terms, that means properties that are variables (`var`) and constants (`let`) as well as methods. (Class methods are functions that are declared within a class. Functions can also be declared outside of classes.)
 
 >For more on classes insert Xref to Classes
