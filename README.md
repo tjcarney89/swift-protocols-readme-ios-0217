@@ -13,9 +13,9 @@
 
 
 
+## Classes
 Just as in any object-oriented programming language, classes in Swift encapsulate data and functionality. In practical terms, that means properties that are variables (`var`) and constants (`let`) as well as methods. (Class methods are functions that are declared within a class. Functions can also be declared outside of classes.)
 
->For more on classes insert Xref to Classes
 
 ## Create a New Class - Person
 You can create a Person class.
