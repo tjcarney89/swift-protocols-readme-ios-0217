@@ -195,7 +195,7 @@ For the `Building` class:
     	}
 ```
 
-This means that when you put the class declaration the protocol adoption, and the protocol conformance (implementation) together, here is what you get for `Person`:
+This means that when you put the class declaration, the protocol adoption, and the protocol conformance (implementation) together, here is what you get for `Person`:
 
 ```swift
 	class Person: TextDescription {
