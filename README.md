@@ -65,11 +65,7 @@ Your Person class now looks like this.
 }
 
 ```
-You can create an instance of this class and assign it to a local variable using this code;
 
-```swift
-	let jim = Person(name: "Jim", height: 64.0, favoriteFood: "Pasta")
-```
 
 ## Create a Text Description Computed Variable for your Person Class
 How do you know that this works? How can you see what you’ve created? One way is to add a new property to the class.  Call it `textDescription` (because that’s what it will be). Here’s how you create that variable in your Class definition:
