@@ -14,7 +14,7 @@ In this lesson we'll work with protocols and explore the problems they help solv
 * Use functions in protocols 
 
 ## Classes
-Just as in any object-oriented programming language, classes in Swift encapsulate data and functionality. In practical terms, that means properties that are variables (`var`) and constants (`let`) as well as methods. (Class methods are functions that are declared within a class. Functions can also be declared outside of classes.)
+Just as in any object-oriented programming language, classes in Swift encapsulate data and functionality. In practical terms, that means properties that are variables (`var`) and constants (`let`) as well as methods can only be accessed through an instance of a class. (Methods are functions that are declared within a class. Functions can also be declared outside of classes and globally accessible. Global functions should for the most part be avoided)
 
 
 ## Create a New Class - Person
